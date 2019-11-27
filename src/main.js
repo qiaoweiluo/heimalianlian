@@ -9,7 +9,7 @@ import ElementUI from 'element-ui';
 // 导入Element -ui的样式
 import 'element-ui/lib/theme-chalk/index.css';
 
-// 导入自己的全局样式
+// 导入自己的全局样 式
 import './style/base.css'
 
 // 使用element- ui   use一下
