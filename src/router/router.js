@@ -6,10 +6,15 @@ import Vue from 'vue'
 // 使用 use
 Vue.use(Vuerouter)
 
+// 导入 登录页面组件
+import login from '../views/login/login.vue'
+
 // 路由规则
 const routes = [
+    // 登录组件规则
     {
-
+        path:"/login",
+        component: login
     }
 ]
 
